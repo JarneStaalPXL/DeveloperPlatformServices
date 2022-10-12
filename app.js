@@ -4,6 +4,6 @@ const routes = require('./routes');
 const app = express();
 
 app.use(express.static('public'));
-app.use('/', routes);
+app.use('/convert', routes);
 
 module.exports = app    
